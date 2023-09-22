@@ -2,18 +2,20 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(232,232,232); 
+    background-color: #C8E5EE; 
 }
 
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: crimson;
+    color: #62091B;
     text-decoration: underline;
+    align-items: center;
 }
 
 h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: blue;
+    color: #0000A8;
+    text-decoration: underline;
 }
 
 .line{
@@ -60,4 +62,5 @@ h2{
     .comand:hover{
         background-color: #FFFF8F;
         color: #004170;
+        text-decoration: underline;
     }
