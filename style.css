@@ -1,66 +1,76 @@
 body{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #C8E5EE; 
-}
-
-h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #62091B;
-    text-decoration: underline;
-    align-items: center;
-}
-
-h2{
+    background-color: #0F2438;
+    color: #FFFC1A;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #0000A8;
-    text-decoration: underline;
-}
-
-.line{
-    height: 250px;
-    width: 70%;
-    display: flex;
-    overflow: auto;
-    justify-content: center;
-    gap: 15px;
-    
-}
-
-.column{
-    /* border: 3px solid blue; */
-    width: 70%;
-    margin: 30px;
-    
-}
-
-.image{
-    float:right;
-    width: 20%;
 }
 
 .menu{
+    margin-top: 5%;
     display: flex;
-    overflow: auto;
-    gap: 7px;
-    /* border: 2px solid rgb(0, 150, 255) ; */
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-direction: column;
+    width: fit-content;
+    
+}
+
+.comand{
+    border: 2px solid #6AFF6E;
+    background-color: #6AFF6E;
+    color: #0F2438;
+    border-radius: 15px;
+    padding: 7px;
+    margin-bottom: 5px;
     font-size: 25px;
-    }
+    display: flex;
+    justify-content: center;
+}
 
-    .comand{
-        border: 2px solid #004170;
-        border-radius: 15px;
-        background-color: #004170;
-        padding: 7px;
-        text-decoration: none;
-        color: #FFFF8F;
-        margin-bottom: 15%;
-    }
+.comand:hover{
+    background-color: #0F2438;
+    color: #6AFF6E;
 
-    .comand:hover{
-        background-color: #FFFF8F;
-        color: #004170;
-        text-decoration: underline;
-    }
+}
+
+.title{
+    color: #6AFF6E;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+
+.image{
+    width: 15%;
+    float: right;
+}
+
+h1{
+    margin-top: -150px;
+}
+
+.column{
+    margin-left: 8%;
+    margin-right: 5%;
+}
+
+.line{
+    margin-bottom: 12px;
+}
+
+.img{
+    width: 60%;
+    border: 3px solid #FFFC1A;
+    border-radius: 25px;
+}
+
+.image-column{
+    margin-left: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-bottom: 35px;
+}
