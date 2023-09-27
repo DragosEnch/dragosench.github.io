@@ -9,7 +9,6 @@ body{
     display: flex;
     flex-direction: column;
     width: fit-content;
-    
 }
 
 .comand{
@@ -56,6 +55,8 @@ h1{
     margin-bottom: 12px;
 }
 
+/* Style des Images */
+
 .img{
     width: 60%;
     border: 3px solid #FFFC1A;
@@ -66,6 +67,7 @@ h1{
     margin-left: 8%;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .image-row{
@@ -73,4 +75,6 @@ h1{
     justify-content: center;
     flex-wrap:wrap;
     margin-bottom: 35px;
+    flex-direction: column;
+    align-items: center;
 }
